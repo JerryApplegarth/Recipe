@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&family=Roboto:wght@400;700;900&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Judy's Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gradient-to-r from-rose-100 to-rose-200 h-screen font-poppins">
+    <!-- Start Header -->
+    <nav class=" bg-blue-300">
+        <div class="container px-4 py-4 flex items-center">
+            <a href="index.html">
+                <p class=" font-roboto text-sky-800 text-3xl font-bold">Judy's Recipes</p>
+
+                
+            </a>
+            <div class="ml-12 flex md:flex-col">
+                <a href="index.html" class="flex items-center font-semibold text-md hover:text-blue-700 transition">
+                    <span class="mr-2">
+                        <i class="fas fa-home"></i>
+                    </span>
+                    Home 
+                </a>
+    
+            </div>
+            <div class="ml-12 flex md:flex-col">
+                <a href="/build/breakfast.html" class="flex items-center font-semibold text-md hover:text-blue-700 transition">
+                    <span class="mr-2">
+                        <i class="fa-solid fa-bowl-food"></i>
+                    </span>
+                    Breakfast 
+                </a>
+    
+            </div>
+            <div class="ml-12 flex md:flex-col">
+                <a href="/build/lunch.html" class="flex items-center font-semibold text-md hover:text-blue-700 transition">
+                    <span class="mr-2">
+                        <i class="fa-solid fa-hotdog"></i>
+                    </span>
+                    Snacks 
+                </a>
+    
+            </div>
+            <div class="ml-12 flex md:flex-col">
+                <a href="/build/dinner.html" class="flex items-center font-semibold text-md hover:text-blue-700 transition">
+                    <span class="mr-2">
+                        <i class="fa-solid fa-drumstick-bite"></i>
+                    </span>
+                    Dinner 
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- End Header -->
+
+    <!-- Begin Three Column Section -->
+    <div class="py-12 bg-gray-200 ">
+        <!-- Start Three Columns -->
+        <div class="container mx-auto px-4 flex ">
+            <!-- Start 1/3 Column Left -->
+            <div class="w-3/12">
+                <div class="bg-white shadow-sm shadow-white rounded-xl p-4  ">
+                       <h5 class="text-xl font-semibold text-gray-700 font-roboto "> Categories  </h5>
+                
+                    <!-- Start Content First Column -->
+                    <div class="text-gray-700 space-y-2 mt-4">
+                        <a href="#" class="flex items-center font-semibold leading-4 uppercase hover:text-blue-700 transition">
+                            <span class="mr-4">
+                                 <i class="fa-solid fa-utensils"></i>
+                            </span>
+                            <span>Hamburger</span>
+                            
+                       </a>
+
+                    </div>
+                    <div class="text-gray-700 space-y-2 mt-4">
+                        <a href="#" class="flex items-center font-semibold leading-4 uppercase hover:text-blue-700 transition">
+                            <span class="mr-4">
+                                 <i class="fa-solid fa-utensils"></i>
+                            </span>
+                            <span>Soups</span>
+                            
+                       </a>
+
+                    </div>
+                    <div class="text-gray-700 space-y-2 mt-4">
+                        <a href="#" class="flex items-center font-semibold leading-4 uppercase hover:text-blue-700 transition">
+                            <span class="mr-4">
+                                 <i class="fa-solid fa-utensils"></i>
+                            </span>
+                            <span>Deserts</span>
+                            
+                       </a>
+
+                    </div>
+                    <div class="text-gray-700 space-y-2 mt-4">
+                        <a href="#" class="flex items-center font-semibold leading-4 uppercase hover:text-blue-700 transition">
+                            <span class="mr-4">
+                                 <i class="fa-solid fa-utensils"></i>
+                            </span>
+                            <span>Snacks</span>
+                            
+                       </a>
+
+                    </div>
+                    <div class="text-gray-700 space-y-2 mt-4">
+                        <a href="#" class="flex items-center font-semibold leading-4 uppercase hover:text-blue-700 transition">
+                            <span class="mr-4">
+                                 <i class="fa-solid fa-utensils"></i>
+                            </span>
+                            <span>Pork</span>
+                            
+                       </a>
+
+                    </div>
+                    <div class="text-gray-700 space-y-2 mt-4">
+                        <a href="#" class="flex items-center font-semibold leading-4 uppercase hover:text-blue-700 transition">
+                            <span class="mr-4">
+                                 <i class="fa-solid fa-utensils"></i>
+                            </span>
+                            <span>Fish</span>
+                       </a>
+                    </div>
+                </div>
+                
+                <!-- End Content First Column -->
+
+                <!-- Start Second Category -->
+                <br>
+                <div class="bg-white shadow-sm shadow-white rounded-xl p-4 mt-6">
+                    <h3 class="text-xl font-semibold text-gray-700 font-roboto "> Random Recipes  </h3>
+                    <div class="mt-4">
+                    <a href="#" class="flex group mt-4 " >
+                        <div class="flex-shrink-0 ">
+                                <img src="/img/hamburger.png" class="h-14 w-20 rounded object-cover hover:brightness-200 " />
+                        </div>
+                        <div class="flex-grow pl-3 ">
+                                <h5 class="text-md leading-5 block font-roboto font-semibold transition group-hover:text-blue-500 ">
+                                    Hamburger: A Great Recipe
+                                </h5>
+                                <div class="flex text-gray-400 text-sm items-center ">
+                                    <span class="mr-1 text-xs">
+                                        <i class="far fa-clock"></i>
+                                    </span>
+                                    May 29, 2022
+                                </div> 
+                        </div> 
+                    </a>
+                    <a href="#" class="flex group mt-4 " >
+                        <div class="flex-shrink-0 ">
+                            <img src="/img/steak.png" class="h-14 w-20 rounded object-cover hover:brightness-200 " />
+                        </div>
+                        <div class="flex-grow pl-3 ">
+                            <h5 class="text-md leading-5 block font-roboto font-semibold transition group-hover:text-blue-500 ">
+                                A Steak You Will Remember
+                            </h5>
+                            <div class="flex text-gray-400 text-sm items-center ">
+                                <span class="mr-1 text-xs">
+                                    <i class="far fa-clock"></i>
+                                </span>
+                                May 19, 2022
+                            </div> 
+                        </div> 
+                    </a>
+                    <a href="#" class="flex group mt-4 " >
+                        <div class="flex-shrink-0 ">
+                            <img src="/img/meat-balls.png" class="h-14 w-20 rounded object-cover hover:brightness-200 " />
+                        </div>
+                        <div class="flex-grow pl-3 ">
+                            <h5 class="text-md leading-5 block font-roboto font-semibold transition group-hover:text-blue-500 ">
+                                A Meat-Ball Delight
+                            </h5>
+                            <div class="flex text-gray-400 text-sm items-center ">
+                                <span class="mr-1 text-xs">
+                                    <i class="far fa-clock"></i>
+                                </span>
+                                May 29, 2023
+                            </div> 
+                        </div> 
+                    </a>
+                    <a href="#" class="flex group mt-4 " >
+                        <div class="flex-shrink-0 ">
+                            <img src="/img/nachos.png" class="h-14 w-20 rounded object-cover hover:brightness-200 " />
+                        </div>
+                        <div class="flex-grow pl-3 ">
+                            <h5 class="text-md leading-5 block font-roboto font-semibold transition group-hover:text-blue-500 ">
+                                It's Nachos Night
+                            </h5>
+                            <div class="flex text-gray-400 text-sm items-center ">
+                                <span class="mr-1 text-xs">
+                                    <i class="far fa-clock"></i>
+                                </span>
+                                May 01, 2023
+                            </div> 
+                        </div> 
+                    </a>
+                    <a href="#" class="flex group mt-4 " >
+                        <div class="flex-shrink-0 ">
+                            <img src="/img/special-breakfast.png" class="h-14 w-20 rounded object-cover hover:brightness-200 " />
+                        </div>
+                        <div class="flex-grow pl-3 ">
+                            <h5 class="text-md leading-5 block font-roboto font-semibold transition group-hover:text-blue-500 ">
+                                A Special Breakfast
+                            </h5>
+                            <div class="flex text-gray-400 text-sm items-center ">
+                                <span class="mr-1 text-xs">
+                                    <i class="far fa-clock"></i>
+                                </span>
+                                May 29, 2023
+                            </div> 
+                        </div> 
+                    </a>
+            </div>
+                    
+        </div>
+                
+                <!-- End Second Category -->
+                <!-- End 1/3 Column Left -->
+            </div>
+
+            <!-- Start Middle Column -->
+            <div class="xl:w-6/12 lg:w-9/12 w-full xl:ml-6 lg:mr-6 ">
+                <div class="flex bg-white px-3 py-4 justify-between items-center rounded-xl ">
+                    <h5 class="text-base uppercase font-semibold font-roboto ">Show Recipe </h5>
+                        <a href="#" class="text-white py-1 px-3 rounded-xl uppercase text-sm bg-blue-500 border border-blue-500 hover:text-blue-500 hover:bg-transparent transition  ">See More 
+                        </a>
+         
+                </div>
+                <div class="rounded-sm overflow-hidden bg-white shadow-sm"></div>
+                    <a href="#" class="block rounded-md overflow-hidden">
+                        <img src="/img/show-dinner.png" alt="plate with food" class="w-full h-96 object-cover transform hover:scale-110 transition duration-500">
+                    </a>
+                    <di class="p-4 pb-5 ">
+                        <a href="#">
+                            <h2 class="block text-2xl font-semibold text-gray-700 hover:text-blue-500 transition font-roboto">
+                                Here is a Great Recipe for tonight
+                            </h2>
+                        </a>
+
+                    <p class="text-gray-500 text-sm mt-2 ">What should I make for dinner tonight that's EASY? What are some good, healthy dinners? Could I just pay someone to come up with an easy dinner idea for me? We’re food bloggers—we literally cook dinner for a living—and these questions still haunt us sometimes. Standing there, staring into the fridge, wondering what you can whip up tonight that everyone will gladly eat and that won’t take a zillion hours—yeah, we’ve been there! For you (and for ourselves!) we’ve put together this list of the 60 BEST, easy dinner recipes we’ve got. They’re all over the map—some are healthy recipes, some are a little more indulgent, some are vegetarian recipes, some are all about a big slab of protein—but they’re unified by their simplicity. So here you have it! Our absolute best, easy dinners—all in one place</p>
+                    <div class="mt-3 flex space-x-4">
+                        <div class="flex text-gray-400 text-start items-center">
+                            <span class="mr-2 text-xs">
+                                <i class="far fa-user"></i>
+
+                            </span>
+                            Blogging Tips
+
+                        </div>
+                        <div class="flex text-gray-400 text-start items-center">
+                            <span class="mr-2 text-xs">
+                                <i class="far fa clock"></i>
+
+                            </span>
+                            FEB 11 2023
+                        </div>
+                    </div>
+
+                     <!-- Start Bottom Middle Cards -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 ">
+                        <div class="rounded-xl bg-white p-4 pb-5 shadow-sm">
+                            <a href="#" class="block rounded-md overflow-hidden">
+                                <img src="/img/breasted-chicken.png" alt="plate with food" class="w-full h-60 object-cover transform hover:scale-110 transition duration-500">
+                            </a>
+                            <div class="mt-5 ">
+                                <a href="#">
+                                    <h2 class="block text-xl font-semibold text-gray-700 hover:text-blue-500 transition font-roboto">
+                                        Chicken Delight Tonight
+                                    </h2>
+                                </a>
+                            </div>
+                                <div class="flex text-gray-400 text-start items-center">
+                                    <span class="mr-2 text-xs">
+                                        <i class="far fa-user"></i>
+
+                                    </span>
+                                    Blogging Tips
+
+                                
+                                    <div class="flex text-gray-400 text-start items-center">
+                                        <span class="mr-2 text-xs">
+                                            <i class="far fa clock"></i>
+
+                                        </span>
+                                        FEB 11 2023
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rounded-xl bg-white p-4 pb-5 shadow-sm">
+                                <a href="#" class="block rounded-md overflow-hidden">
+                                    <img src="/img/vegie-plate.png" alt="plate with food" class="w-full h-60 object-cover transform hover:scale-110 transition duration-500">
+                                </a>
+                                <div class="mt-5 ">
+                                    <a href="#">
+                                        <h2 class="block text-xl font-semibold text-gray-700 hover:text-blue-500 transition font-roboto">
+                                            Veggie-Plate
+                                        </h2>
+                                    </a>
+                                </div>
+                                    <div class="flex text-gray-400 text-start items-center">
+                                        <span class="mr-2 text-xs">
+                                            <i class="far fa-user"></i>
+
+                                        </span>
+                                        Blogging Tips
+
+                                    
+                                        <div class="flex text-gray-400 text-start items-center">
+                                            <span class="mr-2 text-xs">
+                                                <i class="far fa clock"></i>
+
+                                            </span>
+                                            FEB 11 2023
+                                        </div>
+                                    </div>
+                                    
+                            </div>
+
+                            <div class="rounded-xl bg-white p-4 pb-5 shadow-sm">
+                                <a href="#" class="block rounded-md overflow-hidden">
+                                    <img src="/img/sasage-platter.png" alt="plate with food" class="w-full h-60 object-cover transform hover:scale-110 transition duration-500">
+                                </a>
+                                <div class="mt-5 ">
+                                    <a href="#">
+                                        <h2 class="block text-xl font-semibold text-gray-700 hover:text-blue-500 transition font-roboto">
+                                            Sausage Delight
+                                        </h2>
+                                    </a>
+                                </div>
+                                    <div class="flex text-gray-400 text-start items-center">
+                                        <span class="mr-2 text-xs">
+                                            <i class="far fa-user"></i>
+
+                                        </span>
+                                        Blogging Tips
+
+                                    
+                                        <div class="flex text-gray-400 text-start items-center">
+                                            <span class="mr-2 text-xs">
+                                                <i class="far fa clock"></i>
+
+                                            </span>
+                                            FEB 11 2023
+                                        </div>
+                                    </div>
+                                    
+                            </div>
+                            <div class="rounded-xl bg-white p-4 pb-5 shadow-sm">
+                                <a href="#" class="block rounded-md overflow-hidden">
+                                    <img src="/img/salmon.png" alt="plate with food" class="w-full h-60 object-cover transform hover:scale-110 transition duration-500">
+                                </a>
+                                <div class="mt-5 ">
+                                    <a href="#">
+                                        <h2 class="block text-xl font-semibold text-gray-700 hover:text-blue-500 transition font-roboto">
+                                            Salmon Snack
+                                        </h2>
+                                    </a>
+                                </div>
+                                    <div class="flex text-gray-400 text-start items-center">
+                                        <span class="mr-2 text-xs">
+                                            <i class="far fa-user"></i>
+
+                                        </span>
+                                        Blogging Tips
+
+                                    
+                                        <div class="flex text-gray-400 text-start items-center">
+                                            <span class="mr-2 text-xs">
+                                                <i class="far fa clock"></i>
+
+                                            </span>
+                                            FEB 11 2023
+                                        </div>
+                                    </div>
+                                    
+                            </div>
+
+                                
+
+
+
+
+                    </div>       
+                        
+                    
+
+                </di>
+                <!-- End Bottom Middle Cards -->
+
+               
+
+
+
+
+            
+                <!-- End Middle Column -->
+
+
+
+
+
+
+            
+            </div>
+        
+        <div class="w-3/12 bg-white shadow-sm shadow-white rounded-xl py-12 ">
+            <div class="bg-white shadow-sm shadow-white rounded-xl p-4  ">
+                <h5 class="text-xl font-semibold text-gray-700 font-roboto "> Show Recipe  </h5>
+            </div>
+
+        </div>
+        
+        <!-- End Three Column -->
+
+   </div>
+
+
+    <!-- End Third Column Section -->
+
+    
+
+    
+
+
+    
+    <script src="/build/script.js"></script>
+</body>
+</html>
